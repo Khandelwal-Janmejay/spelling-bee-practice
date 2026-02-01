@@ -14,8 +14,8 @@ body {
   border-radius: 12px;
   width: 90vw;
   max-width: 600px;
-  height: 95vh;
-  max-height: 95vh;
+  height: 85vh;
+  max-height: 85vh;
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   display: flex;
@@ -25,36 +25,65 @@ body {
 
 @media (max-width: 768px) {
   .container {
-    height: 95vh;
-    max-height: 95vh;
+    height: 85vh;
+    max-height: 85vh;
   }
 }
 
 h1 {
   margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
 
 .buttons button,
 .actions button {
-  margin: 0.5rem;
-  padding: 0.8rem 1.2rem;
+  margin: 0.6rem;
+  padding: 1rem 1.5rem;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   background: #4f46e5;
   color: white;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .buttons button,
+  .actions button {
+    font-size: 1.1rem;
+    padding: 0.9rem 1.2rem;
+  }
 }
 
 input {
   width: 100%;
-  padding: 0.6rem;
+  padding: 0.8rem;
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  input {
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
 }
 
 #feedback {
   margin-top: 1rem;
   font-weight: bold;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  #feedback {
+    font-size: 1rem;
+  }
 }
