@@ -11,8 +11,8 @@ body {
   background: white;
   padding: 2.5rem;
   border-radius: 12px;
-  width: 90vw;
-  max-width: 600px;
+  width: 900vw;
+  max-width: 6000px;
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
